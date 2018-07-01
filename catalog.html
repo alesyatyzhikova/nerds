@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Магазин</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__wrapper container">
+        <div class="main-nav-wrapper">
+      <div class="header__logo">
+        <a href="index.html">
+        <img src="img/nerds-logo.svg" alt="Логотип" width="160" height="65">
+      </a>
+      </div>
+      <nav class="header__nav main-nav">
+        <ul class="main-nav__list">
+          <li class="main-nav__item"><a class="main__nav-item-link" href="index.html">Студия</a></li>
+          <li class="main-nav__item"><a class="main__nav-item-link" href="#">Клиенты</a></li>
+          <li class="main-nav__item"><a class="main__nav-item-link menu-active" href="#">Магазин</a></li>
+          <li class="main-nav__item"><a class="main__nav-item-link" href="#">Контакты</a></li>
+        </ul>
+      </nav>
+        <div class="main-nav__basket">
+          <a class="main-nav__basket-link" href="#">Корзина</a>
+        </div>
+    </div>
+      <div class="header__catalog">
+        <h2 class="header__catalog-title">Магазин готовых шаблонов</h2>
+      </div>
+    </header>
+    <main>
+      <div class="catalog__wrapper container">
+      <form class="form" action="index.html" method="post">
+
+        <div class="form__range">
+          <h3 class="form__title range__title">Стоимость:</h3>
+          <div class="form__line">
+           <div class="form__range-line">
+             <div class="form__range-line--green">
+             </div>
+           </div>
+         </div>
+          <span>от</span><input class="input-zero" type="text" name="range-value" value="0"><span>до</span><input type="text" name="range-value" value="15 000">
+        </div>
+
+        <div class="form__radio">
+          <h3 class="form__title radio__title">Сетка:</h3>
+          <input type="radio" name="radio" id="btn-1" checked><label class="radio__label" for="btn-1">Адаптивная</label>
+          <input type="radio" name="radio" id="btn-2" disabled><label class="radio__label" for="btn-2">Фиксированная</label>
+          <input type="radio" name="radio" id="btn-3"><label class="radio__label" for="btn-3">Резиновая</label>
+        </div>
+        <div class="form__checkbox">
+          <h3 class="form__title checkbox__title"> Особенности:</h3>
+          <input type="checkbox" name="checkbox-1" id="box-1" checked><label class="checkbox__label" for="box-1">Слайдер</label>
+          <input type="checkbox" name="checkbox-2" id="box-2"><label class="checkbox__label" for="box-2">Блок преимуществ</label>
+          <input type="checkbox" name="checkbox-3" id="box-3" checked><label class="checkbox__label" for="box-3">Новости</label>
+          <input type="checkbox" name="checkbox-4" id="box-4" disabled><label class="checkbox__label" for="box-4">Галерея</label>
+          <input type="checkbox" name="checkbox-5" id="box-5"><label class="checkbox__label" for="box-5">Корзина</label>
+        </div>
+        <a class="form__button" href="#">Показать</a>
+      </form>
+      <div class="catalog">
+      <div class="filter">
+        <h3 class="filter__title">Сортировать:</h3>
+        <ul class="filter__list">
+          <li class="filter__item filter__item_active"><a class="filter__link kind-link active-link" href="#">по цене</a></li>
+          <li class="filter__item"><a class="filter__link kind-link" href="#">по типу</a></li>
+          <li class="filter__item"><a class="filter__link kind-link" href="#">по названию</a></li>
+        </ul>
+          <div class="filter__controls">
+          <a class="filter__link filter__link--down" href="#">down</a>
+          <a class="filter__link filter__link--up" href="#">up</a>
+        </div>
+      </div>
+        <div class="patterns">
+          <ul class="patterns-list">
+            <li class="patterns-item">
+              <a href="#">
+              <img src="img/img-sedona.jpg" alt="Sedona" width="360" height="576">
+            </a>
+            <div class="patterns__pop-up pop-up">
+              <h3 class="pop-up__title">Sedona</h3>
+              <p class="pop-up__text">Информационный сайт для туристов</p>
+              <a class="button pop-up__button" href="#">9 900 Руб.</a>
+            </div>
+            </li>
+            <li class="patterns-item">
+              <a href="#">
+              <img src="img/img-pink.jpg" alt="Pink" width="360" height="576">
+            </a>
+            <div class="patterns__pop-up pop-up">
+              <h3 class="pop-up__title">Pink App</h3>
+              <p class="pop-up__text">Продуктовый лендинг
+приложения для iOS и Android</p>
+              <a class="button pop-up__button" href="#">9 900 Руб.</a>
+            </div>
+            </li>
+            <li class="patterns-item">
+              <a href="#">
+              <img src="img/img-barbershop.jpg" alt="Borodinski" width="360" height="576">
+            </a>
+            <div class="patterns__pop-up pop-up">
+              <h3 class="pop-up__title">Barbershop</h3>
+              <p class="pop-up__text">Сайт салоны красоты.Для мужчин, да.</p>
+              <a class="button pop-up__button" href="#">9 900 Руб.</a>
+            </div>
+            </li>
+            <li class="patterns-item">
+              <a href="#">
+              <img src="img/img-mishka.jpg" alt="Mishka" width="360" height="576">
+            </a>
+            <div class="patterns__pop-up pop-up">
+              <h3 class="pop-up__title">Mishka</h3>
+              <p class="pop-up__text">Интернет-магазин
+вязаных игрушек</p>
+              <a class="button pop-up__button" href="#">9 900 Руб.</a>
+            </div>
+            </li>
+            <li class="patterns-item">
+              <a href="#">
+              <img src="img/img-aplus.jpg" alt="Aplus" width="360" height="576">
+            </a>
+            <div class="patterns__pop-up pop-up">
+              <h3 class="pop-up__title">A plus</h3>
+              <p class="pop-up__text">Лендинг курсов повышения квалификации</p>
+              <a class="button pop-up__button" href="#">9 900 Руб.</a>
+            </div>
+            </li>
+            <li class="patterns-item">
+              <a href="#">
+              <img src="img/img-kvast.jpg" alt="Kvast" width="360" height="576">
+            </a>
+            <div class="patterns__pop-up pop-up">
+              <h3 class="pop-up__title">Кваст</h3>
+              <p class="pop-up__text">Промо-сайт производителя
+крафтового кваса</p>
+              <a class="button pop-up__button" href="#">9 900 Руб.</a>
+            </div>
+            </li>
+          </ul>
+        </div>
+        <div class="pages">
+          <a class="pages__btn current-page" href="#">1</a>
+          <a class="pages__btn" href="#">2</a>
+          <a class="pages__btn" href="#">3</a>
+          <a class="pages__btn next-page" href="#">Следующая</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="address">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6037999040354!2d30.322010416394033!3d59.938716271971415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2sBolshaya+Konyushennaya+ul.%2C+19%2C+Sankt-Peterburg%2C+Russia%2C+191186!5e0!3m2!1sen!2s!4v1441888483426" width="1440" height="418" allowfullscreen></iframe>
+    <div class="address__block">
+      <h3 class="address__title">Nёrds design studio</h3>
+      <p class="address__text">191186, Санкт-Петербург,<br> ул. Б. Конюшенная, д. 19/8</p>
+      <p class="address__phone">тел. +7 (812) 275-75-75</p>
+      <a class="address__button button" href="#">Напишите нам</a>
+    </div>
+  </section>
+  </main>
+  <footer class="footer container">
+    <div class="footer__wrapper">
+    <div class="footer__social social">
+      <ul class="social__list">
+        <li class="social__item"><a class="social__vk" href="#">Vk</a></li>
+        <li class="social__item"><a class="social__fb" href="#">Facebook</a></li>
+        <li class="social__item"><a class="social__insta" href="#">Instagram</a></li>
+      </ul>
+    </div>
+      <div class="footer__text">
+        <h3 class="footer__title">Давайте дружить, это выгодно!</h3>
+        <p class="footer__sale">Скидка 10% для друзей из социальных сетей.</p>
+      </div>
+    </div>
+  </div>
+  </footer>
+  <section class="write">
+  <div class="write-us">
+    <h2 class="write-us__title">Напишите нам</h2>
+    <button class="write-us__button button-close" type="button" name="button">x</button>
+    <form class="write-us__form write-form" action="index.html" method="post">
+      <div class="write-form__block-top">
+        <div class="input-block">
+      <label for="name">Ваше имя:</label>
+      <input type="text" name="name" id="name" placeholder="Представьтесь, пожалуйста" required>
+    </div>
+    <div class="input-block">
+      <label for="email">Ваш e-mail:</label>
+      <input type="email" name="email" id="email" placeholder="Для отправки ответа" required>
+    </div>
+    </div>
+    <div class="write-form__block-bottom">
+      <label class="textarea-label" for="text">Текст письма:</label>
+      <textarea class="write-form__textarea" name="text" rows="4" cols="10">В свободной форме</textarea>
+    </div>
+      <button type="submit" class="button write-form__button" name="submit-button">Отправить</button>
+    </form>
+  </div>
+</section>
+<script>
+// кнопка, при нажатии на которую появляется форма
+var link = document.querySelector(".address__button");
+// переменная для модального окна
+var popup = document.querySelector(".write");
+// событие клика при нажатии на кнопку
+// кнопка закрытия модального окна
+var close = popup.querySelector(".button-close");
+// поле ввода имени в форме
+var name = popup.querySelector("[name=name]");
+// переменная для формы
+var form = popup.querySelector("write-form");
+var email = popup.querySelector("[name=email]");
+// хранилище для других браузеров
+var isStorageSupport = true;
+var storage = "";
+
+try {
+ storage = localStorage.getItem("name");
+} catch (err) {
+ isStorageSupport = false;
+}
+
+link.addEventListener("click", function (evt) {
+  evt.preventDefault();
+  // добавляем класс показа при клике на ссылку
+  popup.classList.add("write-show");
+  // фокус в поле имени при открытии окна
+  if (storage) {
+      name.value = storage;
+      email.focus();
+    } else {
+      name.focus();
+    }
+});
+
+//закрытие модального окна
+close.addEventListener("click", function (evt) {
+  evt.preventDefault();
+  popup.classList.remove("write-show");
+  popup.classList.remove("write-error");
+});
+// событие оправки формы
+form.addEventListener("submit", function (evt) {
+  if (!name.value || !email.value) {
+    evt.preventDefault();
+    popup.classList.add("write-error");
+  } else {
+    if (isStorageSupport) {
+      localStorage.setItem("name", name.value);
+    }
+  }
+  // запись в локальное хранилище
+});
+// выход при нажатии кнопки esc
+window.addEventListener("keydown", function (evt) {
+ if (evt.keyCode === 27) {
+   evt.preventDefault();
+   if (popup.classList.contains("write-show")) {
+     popup.classList.remove("write-show");
+     popup.classList.remove("write-error");
+   }
+ }
+});
+</script>
+  </body>
+</html>

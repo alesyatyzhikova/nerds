@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__logo">
+        <img src="#" alt="Логотип">
+      </div>
+      <nav class="header__nav main-nav">
+        <ul class="main-nav__list">
+          <li class="main-nav__item">Студия</li>
+          <li class="main-nav__item">Клиенты</li>
+          <li class="main-nav__item">Магазин</li>
+          <li class="main-nav__item">Контакты</li>
+        </ul>
+        <div class="main-nav__basket">
+          Корзина
+        </div>
+      </nav>
+      <div class="header__catalog">
+        <h2 class="header__catalog-title">Магазин готовых шаблонов</h2>
+      </div>
+    </header>
+    <main>
+      <form class="form" action="index.html" method="post">
+        <div class="form__range">
+          <label class="form__label range__label">Стоимость:</label>
+          <input type="range" name="range">
+          <span>от</span><input type="text" name="range-value"><span>до</span><input type="text" name="range-value">
+        </div>
+        <div class="form__radio">
+          <input type="radio" name="radio" id="btn-1" checked><label for="btn-1">Адаптивная</label>
+          <input type="radio" name="radio" id="btn-2"><label for="btn-2">Фиксированная</label>
+          <input type="radio" name="radio" id="btn-3"><label for="btn-3">Резиновая</label>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
