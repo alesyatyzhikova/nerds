@@ -628,6 +628,7 @@ body {
   border: 3px solid #dddddd;
   outline: none;
   border-radius: 3px;
+  color: #000000;
 }
 .input-block input:hover {
   border: 3px solid #b4b9bb;
@@ -664,7 +665,7 @@ input[type="email"]::placeholder {
   font-size: 16px;
   line-height: 18px;
   font-weight: 400;
-  color: #dddddd;
+  color: #000000;
   border: 3px solid #dddddd;
   outline: none;
   border-radius: 3px;
