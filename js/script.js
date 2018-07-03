@@ -54,11 +54,11 @@ form.addEventListener("submit", function (evt) {
 });
 // выход при нажатии кнопки esc
 window.addEventListener("keydown", function (evt) {
- if (evt.keyCode === 27) {
-   evt.preventDefault();
-   if (popup.classList.contains("write-show")) {
-     popup.classList.remove("write-show");
-     popup.classList.remove("write-error");
-   }
- }
+if (evt.keyCode === 27) {
+evt.preventDefault();
+if (popup.classList.contains("write-show")) {
+popup.classList.remove("write-show");
+popup.classList.remove("write-error");
+}
+}
 });
